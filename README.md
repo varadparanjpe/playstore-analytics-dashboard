@@ -76,12 +76,12 @@ visible only during its window unless the sidebar's *Ignore IST time windows* to
 
 | Task | Preview |
 |------|---------|
-| 1 — Grouped bar | ![](screenshots/task1_grouped_bar.png) |
-| 2 — Choropleth (source data) | ![](screenshots/task2_choropleth_data.png) |
-| 3 — Dual-axis | ![](screenshots/task3_dual_axis.png) |
-| 4 — Time series | ![](screenshots/task4_timeseries.png) |
-| 5 — Bubble | ![](screenshots/task5_bubble.png) |
-| 6 — Stacked area | ![](screenshots/task6_stacked_area.png) |
+| 1 — Grouped bar | ![](task1_grouped_bar.png) |
+| 2 — Choropleth (source data) | ![](task2_choropleth_data.png) |
+| 3 — Dual-axis | ![](task3_dual_axis.png) |
+| 4 — Time series | ![](task4_timeseries.png) |
+| 5 — Bubble | ![](task5_bubble.png) |
+| 6 — Stacked area | ![](task6_stacked_area.png) |
 
 > Screenshots are generated from a **sample dataset** for illustration. Re-run the app/notebook on
 > the real Kaggle CSVs for production figures.
@@ -110,14 +110,14 @@ The brief contains requirements the raw dataset cannot satisfy literally. Decisi
 ## 📁 Project structure
 
 ```
-playstore_dashboard/
-├── app.py                         # Streamlit interactive dashboard
-├── data_prep.py                   # Shared loading & cleaning
+playstore-analytics-dashboard/
+├── app.py                            # Streamlit interactive dashboard
+├── data_prep.py                      # Shared loading & cleaning
 ├── Google_Playstore_Analytics.ipynb  # Notebook with all 6 charts
 ├── requirements.txt
 ├── README.md
-├── screenshots/                   # Chart previews
-├── googleplaystore.csv            # (add your own from Kaggle)
+├── task1_grouped_bar.png … task6_stacked_area.png   # chart previews
+├── googleplaystore.csv
 └── googleplaystore_user_reviews.csv
 ```
 
