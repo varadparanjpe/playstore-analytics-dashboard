@@ -7,6 +7,8 @@ translations, growth highlighting, and IST time-window gating.
 > Extends the original training project (Google Play Store data analytics) — same dataset,
 > additional dashboards and analytics features.
 
+**🔴 Live demo:** https://playstore-analytics-dashboard-jmmw9aajsrqksisttp2pat.streamlit.app/
+
 ---
 
 ## 🚀 Live demo / hosting
